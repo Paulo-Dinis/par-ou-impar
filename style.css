@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500;600;700&display=swap');
+
+:root{
+    --cor1: #d4dddb;
+    --cor2: #038C65;
+    --cor3: #025939;
+    --cor4: #BF7E04;
+    --cor5: #8C3A32;
+    --cor6: #0D0D0D;
+}
+
+body{
+    text-align: center;
+    margin-top: 200px;
+    font-family: 'DynaPuff', cursive;
+    background-color: #025939;
+    
+}
+
+div{
+    display: none;
+}
+
+button{
+    width: 300px;
+    height: 200px;
+    font-family: 'DynaPuff', cursive;
+    font-size: 50px;
+    background-color: #025939;
+    border: none;
+    color: #BF7E04;
+    text-shadow: 0.5px 1.5px 0.5px var(--cor5);
+    cursor: pointer;
+}
+
+div button{
+    font-family: 'DynaPuff', cursive;
+    background-color: #025939;
+    border: none;
+    color: #BF7E04;
+    text-shadow: 0.5px 1.5px 0.5px var(--cor5);
+    padding: 0px;
+    margin: 0px;
+}
+
+button h1{
+    text-shadow: 1px 2.5px 1px var(--cor5);
+}
+
+button p{
+    text-shadow: 1px 2.5px 1px var(--cor5);
+    margin: 0px;
+}
+
+#buttonRes{
+    padding-top: 50px;
+}
+
+div h2{
+    font-family: 'DynaPuff', cursive;
+    background-color: #025939;
+    border: none;
+    color: #BF7E04;
+    text-shadow: 0.5px 1.5px 0.5px var(--cor5);
+    padding: 0px;
+    margin-bottom: 50px;
+    letter-spacing: 3px;
+}
+
+.saltaLetra{
+    animation: saltaLetra 3s infinite;
+}
+
+#player{
+    display: inline-block;
+    position: relative;
+    right: 150px;
+}
+
+#bot{
+    display: inline-block;
+    position: relative;
+    left: 200px;
+}
+
+#play{
+    display: block;
+}
+
+.escondeIniciar
+{
+    display: none;
+}
+
+.mostraSelect{
+    display: block;
+}
+
+.mostraEscolhaNum{
+    display: block;
+}
+
+.mostraMao{
+    display: block;
+}
+
+
+
+img{
+    display: none;
+}
+
+@keyframes saltaLetra{
+     from{
+        letter-spacing: 3px;
+     }
+
+     to{
+        letter-spacing: 5px;
+     }
+}
+
+
+
